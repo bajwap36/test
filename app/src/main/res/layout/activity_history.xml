@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    tools:context=".History">
+
+    <ListView
+        android:id="@+id/lvOrders"
+        android:layout_width="match_parent"
+        android:layout_height="392dp">
+
+    </ListView>
+
+    <Button
+        android:id="@+id/backBtn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="140dp"
+        android:layout_marginLeft="140dp"
+        android:background="@drawable/roundedbutton"
+
+        android:layout_marginTop="50px"
+        android:paddingLeft="16dp"
+        android:text="BACK TO MENU" />
+
+    <!--    <fragment-->
+    <!--        android:id="@+id/fragment"-->
+    <!--        android:name="com.example.appetizer.OrderDetail"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="323dp" />-->
+</LinearLayout>
